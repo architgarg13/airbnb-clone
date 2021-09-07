@@ -13,7 +13,7 @@ function MapRight({searchResults}) {
     }) )
 
     const centre = getCenter(coordinates);
-    console.log(centre);
+  
 
     const [viewport , setViewport] = useState({
         width: "100%",
