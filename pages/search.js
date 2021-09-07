@@ -1,9 +1,9 @@
 import { format } from "date-fns";
 import { useRouter } from "next/dist/client/router"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import InfoCard from "./components/InfoCard";
-import MapRight from "./components/MapRight";
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import InfoCard from "../components/InfoCard";
+import MapRight from "../components/MapRight";
 import 'animate.css'
 
 function Search({searchResults}) {
